@@ -33,3 +33,34 @@
   margin: 40px auto;
   padding: 20px;
 }
+/* functions previews / list */
+.function-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  cursor: pointer;
+}
+.function-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.function-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.function-details {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+.function-details p {
+  margin: 0;
+  line-height: 1.4;
+  color: #444444;
+}
+p.description {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
